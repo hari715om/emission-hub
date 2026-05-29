@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: emission-hub-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate && python manage.py seed_demo
+    startCommand: gunicorn emission_hub.wsgi:application --bind 0.0.0.0:$PORT --workers 2
+    rootDir: backend
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com,localhost"
+      - key: CORS_ALLOW_ALL_ORIGINS
+        value: "True"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: emission-hub-db
+          property: connectionString
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+
+  - type: web
+    name: emission-hub-frontend
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    rootDir: frontend
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          name: emission-hub-api
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
+
+databases:
+  - name: emission-hub-db
+    databaseName: emission_hub
+    plan: free

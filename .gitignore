@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+.env
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.log
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Render / deployment
+.render-build-cache/
