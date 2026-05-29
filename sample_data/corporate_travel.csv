@@ -1,0 +1,21 @@
+expense_id,traveler_name,traveler_email,expense_date,trip_start_date,trip_end_date,expense_type,origin,destination,origin_iata,destination_iata,distance_km,distance_miles,class_of_service,hotel_nights,merchant_name,amount,currency,booking_reference,purpose,department,cost_centre
+EXP-2301,Sarah Mitchell,s.mitchell@acme.com,2023-10-05,2023-10-05,2023-10-06,FLIGHT,London,New York,LHR,JFK,5541,,ECONOMY,,British Airways,612.00,GBP,BA-PNR-4492,Client onboarding meeting,Sales,CC-SALES-01
+EXP-2302,Sarah Mitchell,s.mitchell@acme.com,2023-10-05,2023-10-05,2023-10-06,HOTEL,,,,,,,,,Marriott Times Square,289.00,USD,MR-902341,Client onboarding meeting,Sales,CC-SALES-01
+EXP-2303,Sarah Mitchell,s.mitchell@acme.com,2023-10-07,2023-10-05,2023-10-06,HOTEL,,,,,,,,,Marriott Times Square,289.00,USD,MR-902341,Client onboarding meeting,Sales,CC-SALES-01
+EXP-2304,Sarah Mitchell,s.mitchell@acme.com,2023-10-07,2023-10-07,2023-10-08,FLIGHT,New York,London,JFK,LHR,5541,,ECONOMY,,British Airways,598.00,GBP,BA-PNR-4493,Return,Sales,CC-SALES-01
+EXP-2305,James Okonkwo,j.okonkwo@acme.com,2023-10-10,2023-10-10,2023-10-10,TRAIN,London,Manchester,,,299,,STANDARD,,Avanti West Coast,142.00,GBP,AV-20231010-88,Internal meeting,Operations,CC-OPS-02
+EXP-2306,James Okonkwo,j.okonkwo@acme.com,2023-10-10,2023-10-10,2023-10-10,TAXI,Manchester Airport,Manchester City Centre,,,18,,,,Uber,24.50,GBP,,Internal meeting,Operations,CC-OPS-02
+EXP-2307,Priya Sharma,p.sharma@acme.com,2023-10-12,2023-10-12,2023-10-14,FLIGHT,London,Frankfurt,LHR,FRA,634,,BUSINESS,,Lufthansa,1840.00,GBP,LH-TKT-7712,Supplier audit,Procurement,CC-PROC-01
+EXP-2308,Priya Sharma,p.sharma@acme.com,2023-10-12,2023-10-12,2023-10-14,HOTEL,Frankfurt,,,,,,2,Marriott Frankfurt,185.00,EUR,MR-190234,Supplier audit,Procurement,CC-PROC-01
+EXP-2309,Tom Hughes,t.hughes@acme.com,2023-10-15,2023-10-15,2023-10-15,CAR_RENTAL,Birmingham,Sheffield,,,120,,,,Enterprise,89.00,GBP,ENT-029341,Site visit,Operations,CC-OPS-03
+EXP-2310,Aisha Kaur,a.kaur@acme.com,2023-10-18,2023-10-18,2023-10-22,FLIGHT,London,Dubai,LHR,DXB,5502,,BUSINESS,,Emirates,3200.00,GBP,EK-TKT-8821,Partnership summit,Business Dev,CC-BD-01
+EXP-2311,Aisha Kaur,a.kaur@acme.com,2023-10-18,2023-10-18,2023-10-22,HOTEL,Dubai,,,,,,,4,Atlantis The Palm,620.00,USD,ATL-44021,Partnership summit,Business Dev,CC-BD-01
+EXP-2312,Marcus Reid,m.reid@acme.com,2023-11-02,2023-11-02,2023-11-03,FLIGHT,London,Edinburgh,LHR,EDI,534,,ECONOMY,,EasyJet,187.00,GBP,EZY-4521,Board meeting,Executive,CC-EXEC-01
+EXP-2313,Marcus Reid,m.reid@acme.com,2023-11-02,2023-11-02,2023-11-03,HOTEL,Edinburgh,,,,,,,1,Balmoral Hotel,310.00,GBP,BM-9021,Board meeting,Executive,CC-EXEC-01
+EXP-2314,Lena Fischer,l.fischer@acme.com,2023-11-08,2023-11-08,2023-11-08,FLIGHT,London,Berlin,,,,,,ECONOMY,,Ryanair,94.00,GBP,FR-TKT-2210,Conference,Finance,CC-FIN-01
+EXP-2315,James Okonkwo,j.okonkwo@acme.com,2023-11-14,2023-11-14,2023-11-14,TAXI,London Heathrow,London City,,,22,,,,Black cab,68.00,GBP,,Airport transfer,Operations,CC-OPS-02
+EXP-2316,Sarah Mitchell,s.mitchell@acme.com,2023-11-20,2023-11-20,2023-11-24,FLIGHT,London,Singapore,LHR,SIN,10847,,FIRST,,Singapore Airlines,8900.00,GBP,SQ-TKT-0018,Enterprise client pitch,Sales,CC-SALES-01
+EXP-2317,Sarah Mitchell,s.mitchell@acme.com,2023-11-20,2023-11-20,2023-11-24,HOTEL,Singapore,,,,,,,4,Marina Bay Sands,480.00,SGD,MBS-21093,Enterprise client pitch,Sales,CC-SALES-01
+EXP-2318,Tom Hughes,t.hughes@acme.com,2023-12-05,2023-12-05,2023-12-05,TRAIN,London,Bristol,,,190,,STANDARD,,Great Western,78.50,GBP,GW-20231205,Client visit,Operations,CC-OPS-03
+EXP-2319,unknown_traveler,,2023-12-10,,,FLIGHT,London,Paris,,,,,ECONOMY,,Air France,210.00,EUR,AF-TKT-5530,Conference,,,
+EXP-2320,Priya Sharma,p.sharma@acme.com,2023-12-15,2023-12-15,2023-12-20,FLIGHT,London,Sydney,LHR,SYD,16993,,BUSINESS,,Qantas,7200.00,GBP,QF-TKT-1102,Regional conference,Procurement,CC-PROC-01
